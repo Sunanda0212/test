@@ -4,21 +4,21 @@ pipeline {
     stages {
         stage('Build app') {
             steps {
-                echo 'index.html'
+                echo 'hello.py'
                 sh 'make build'  // Example shell command
             }
         }
         
         stage('Test app') {
             steps {
-                echo 'index.html'
+                echo 'hello.py'
                 sh 'make test'   // Example test command
             }
         }
 
         stage('Deploy app') {
             steps {
-                echo 'index.html'
+                echo 'hello.py'
                 sh 'make deploy' // Example deploy command
             }
         }
