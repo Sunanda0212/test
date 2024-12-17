@@ -4,21 +4,21 @@ pipeline {
     stages {
         stage('Build app') {
             steps {
-                echo 'Building the project...'
+                echo 'index.html'
                 sh 'make build'  // Example shell command
             }
         }
         
         stage('Test app') {
             steps {
-                echo 'Running tests...'
+                echo 'index.html'
                 sh 'make test'   // Example test command
             }
         }
 
         stage('Deploy app') {
             steps {
-                echo 'Deploying the project...'
+                echo 'index.html'
                 sh 'make deploy' // Example deploy command
             }
         }
